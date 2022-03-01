@@ -138,16 +138,6 @@ main{
 
 
 
-
-
-
-
-
-
-
-
-
-
 .div_two_container{
     background-color: var(--color2);
     padding: 2vh;
@@ -173,7 +163,7 @@ main{
     color: var(--color5);
 }
 .container_tips div:last-child{
-    margin-top: 6.5vh;
+    margin-top: 9.5vh;
 }
 
 .total_people{
@@ -213,6 +203,27 @@ main{
     background-color: var(--color3);
     margin-top: 9vh;
 }
+
+
+.billError{
+    display: none;
+    color: red;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.peopleError{
+    display: none;
+    color: red;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
 
 
 
@@ -256,7 +267,6 @@ main{
     }
     .people_tips .input_people{
         width: 100%;
-        margin-bottom: 3vh;
     }
     
     .div_two_tips{
