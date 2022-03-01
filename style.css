@@ -1,0 +1,288 @@
+:root{
+--color1: hsl(172, 67%, 45%);
+--color2: hsl(183, 100%, 15%);
+--color3:  hsl(186, 14%, 43%);
+--color4:  hsl(184, 14%, 56%);
+--color5:  hsl(185, 41%, 84%);
+--color6: hsl(189, 41%, 97%);
+--color7: hsl(0, 0%, 100%);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color:var(--color5);
+}
+
+.logo{
+   position: relative;
+   top: 8vh;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    margin-top: 13vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.div_main_container{
+    border-radius: 12px;
+    background-color: var(--color7);
+    display: flex;
+    padding: 3vh;
+    min-height: auto;
+    min-height: auto;
+
+}
+
+
+
+.div_one_container{
+    border: 2px solid  rgb(230, 230, 230);
+    width: 100%;
+    padding: 2vh; 
+    margin-right: 1vh;
+    border-radius: 13px;
+}
+
+.div_number_bill{
+    margin: 2vh;
+    font-family: 'Piazzolla', serif;
+}
+
+.imput_bill{
+    height: 5.5vh;
+    width: 350px;
+    min-height: auto;
+    background-color: var(--color6);
+    border: none;
+    border-radius: 7px;
+    border: 1px solid rgb(230, 230, 230);
+}
+
+.p_select_tip{
+    margin: 2vh;
+    font-family: 'Piazzolla', serif;
+}
+
+.percentage_tip{
+    margin: 1vh;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    min-height: auto;
+    height: 20vh;
+  
+}
+
+.percentage_tip button{
+   margin: 1vh;
+   width: 14vh;
+   height: 6vh;
+   border-radius: 15px;
+   background-color: var(--color2);
+   color: var(--color7);
+   border: none;
+}
+
+.percentage_tip .customTips{
+   margin: 1vh;
+   width: 14vh;
+   height: 6vh;
+   border-radius: 15px;
+   background-color: var(--color6);
+   border: none;
+   
+}
+.perceTips{
+    font-family: 'Piazzolla', serif;
+    font-size: 23px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.people_tips{
+    margin: 2vh;
+    font-family: 'Piazzolla', serif;
+}
+
+.people_tips p{
+    color: rgb(0, 0, 0);
+    padding-bottom: 1vh;
+}
+
+.people_tips .input_people{
+    height: 5.5vh;
+    width: 350px;
+    min-height: auto;
+    background-color: var(--color6);
+    border: none;
+    border-radius: 7px;
+    border: 1px solid rgb(230, 230, 230);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div_two_container{
+    background-color: var(--color2);
+    padding: 2vh;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(1,auto);
+    border-radius: 13px;
+}
+
+.div_two_tips{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+.container_tips{
+    grid-column: 3 / 4;
+    font-family: 'Piazzolla', serif;
+}
+
+.container_tips{
+    margin: 2vh;
+    font-size: 40px;
+    color: var(--color5);
+}
+.container_tips div:last-child{
+    margin-top: 6.5vh;
+}
+
+.total_people{
+    grid-column: 1 / 3 ;
+    font-family: 'Piazzolla', serif;
+    font-size: 23px;
+    margin-top: 17px;
+}
+
+.total_people_two{
+    margin-top: 3vh;
+}
+
+.total_people p{
+    margin-top: 2vh;
+    margin-left: 2vh;
+    color: var(--color7);
+   
+}
+
+.total_people span{
+    margin-top: 2vh;
+    margin-left: 2vh;
+    font-size: 13px;
+    color: var(--color7);
+}
+
+.buttom_reset{
+    width: 100%;
+}
+
+.div_reset_buttom .buttom_reset{
+    width: 100%;
+    height: 50%;
+    border-radius: 15px;
+    border: none;
+    background-color: var(--color3);
+    margin-top: 9vh;
+}
+
+
+
+
+
+@media screen and (max-width : 800px) {
+
+
+    .div_main_container{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .div_number_bill{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .imput_bill{
+        width: 100%;
+    }
+    .percentage_tip{
+
+        width: 100%;
+        height: 50%;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+    }
+
+    .people_tips{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .div_two_container{
+      width: 100%;
+    }
+    .people_tips .input_people{
+        width: 100%;
+        margin-bottom: 3vh;
+    }
+    
+    .div_two_tips{
+     display: flex;
+     margin: 0;
+     padding: 0;
+    }
+
+   .div_reset_buttom .buttom_reset{
+        height: 35px;
+        border-radius: 0px;
+        margin-top: 1.5vh;
+
+    }
+
+    .percentage_tip{
+        width: 100%;
+    }
+
+    .container_tips div:first-child{
+        margin-top: 3vh;
+    }
+    
+    .container_tips div:last-child{
+        margin-top: 8vh;
+    }
+
+    
+}
