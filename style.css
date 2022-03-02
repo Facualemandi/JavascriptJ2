@@ -96,6 +96,10 @@ main{
    color: var(--color7);
    border: none;
 }
+.percentage_tip button:active{
+   background-color: rgb(250, 218, 150);
+   color: black;
+}
 
 .percentage_tip .customTips{
    margin: 1vh;
@@ -106,6 +110,8 @@ main{
    border: none;
    
 }
+
+
 .perceTips{
     font-family: 'Piazzolla', serif;
     font-size: 23px;
@@ -193,7 +199,11 @@ main{
 
 .buttom_reset{
     width: 100%;
+    color: var(--color7);
+    font-size: 25px;
+    font-family: sans-serif;
 }
+
 
 .div_reset_buttom .buttom_reset{
     width: 100%;
@@ -202,6 +212,11 @@ main{
     border: none;
     background-color: var(--color3);
     margin-top: 9vh;
+}
+
+.buttom_reset:active{
+    background-color: rgb(250, 218, 150);
+    color: black;
 }
 
 
