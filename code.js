@@ -184,19 +184,15 @@ function calculateTip(tip5,tip10,tip15,tip25,tip50,reset){
        
           const customTips = e.target.value;
           
-          const f = parseInt(customTips) // 100
-          const g = parseInt(inpPeople.value)  // 2
+          const f = parseInt(customTips) 
+          const g = parseInt(inpPeople.value) 
 
           
           const tipResult = (bill.value * f) / 100; 
 
-          let  a = parseInt(tipResult); // 500
-          let  b = parseInt(tipResult / g); // 500 + 25 = 525
+          let  a = parseInt(tipResult); 
+          let  b = parseInt(tipResult / g);
           
-
-
-
-
 
 
           document.querySelector('.textDiv').innerHTML = tipResult + ',00';
